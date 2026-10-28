@@ -26,7 +26,15 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col justify-center items-center p-4">
-      <div className="w-full max-w-md space-y-8">
+      <div className="w-full max-w-md space-y-5">
+        <div className="text-center space-y-3">
+          <h3 className="text-3xl font-bold text-green-400">
+            {"<"} Chat App {">"}
+          </h3>
+          <p className="text-zinc-500 text-sm">
+            A private , self-destructing chat room
+          </p>
+        </div>
         <div className="border border-zinc-800 bg-zinc-900/70 p-6 backdrop-blur-md">
           <div className="space-y-5">
             <div className="space-y-3 flex flex-col">
